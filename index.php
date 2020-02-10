@@ -16,10 +16,10 @@ echo "<?xml version='1.0' encoding='UTF-8'?>
 
 while ($item = mysqli_fetch_object($r)) {
     echo "<item>
-    <Groupname>$item->groupname</Groupname>
-    <Noofmembers>$item->no_ofmembers</Noofmembers>
-    <Gender>$item->gender</Gender>
-    <Song>$item->song</Song>
+    <top>$item->Top</top>
+    <name>$item->Name</name>
+    <score>$item->Score</score>
+    <team>$item->Team</team>
     </item>";
 }
 
