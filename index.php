@@ -8,7 +8,7 @@ $db_port = '3306';
 $db_name = 'db_1822038';
 
 $conn = mysqli_connect($db_hostname, $db_username, $db_password, $db_name);
-$q = "SELECT * FROM accounts";
+$q = "SELECT * FROM NBA";
 $r = mysqli_query($conn, $q);
 
 echo "<?xml version='1.0' encoding='UTF-8'?>
