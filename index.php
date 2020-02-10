@@ -22,3 +22,4 @@ while ($item = mysqli_fetch_object($r)) {
     <team>$item->Team</team>
     </item>";
 }
+echo "</data>";
